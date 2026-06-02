@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script>
+      // GitHub Pages SPA fallback — redirect to root preserving path.
+      var path = window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace("/" + (path.startsWith("/") ? path.slice(1) : path));
+    </script>
+  </head>
+  <body></body>
+</html>
